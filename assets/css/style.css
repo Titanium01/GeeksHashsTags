@@ -1,0 +1,42 @@
+.base-holder{
+    border: 1px solid #eaeaea;
+    padding-top:5px;
+    padding-bottom:0;
+    padding-left:5px;
+    padding-right:5px;
+    overflow: hidden;
+}
+.base-holder input[type='text']{
+    border: none;
+    width: 100px;
+    font-size: 13px;
+    color: #666666;
+    outline:none;
+    margin-bottom: 5px;
+}
+.tag-success{
+    background: #879e29;
+    color: #ffffff;
+}
+.tag-success:hover{
+    background: #93ac2d;
+    color: #ffffff;
+}
+.tag-success-outline{
+    color: #879e29;
+    border:1px solid rgba(135, 158, 41, 0.62)
+}
+.tag-success-outline:hover{
+    background: #f9f9f9;
+    color: #7c9126;
+    border:1px solid #7d9226;
+}
+.default-tag{
+    cursor: pointer;
+    padding:5px 8px !important;
+    font-size: 14px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+    display: inline-block;
+}
