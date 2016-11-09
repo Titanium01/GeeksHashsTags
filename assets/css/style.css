@@ -1,9 +1,18 @@
+/**
+Created on 11/05/2016
+Version 1.1.0
+Developed By Titanium01
+Visit me on facebook
+fb.com/Geeks.Hashes/ or @geeks.hashes
+github: @Titanium01
+**/
+
 .base-holder{
     border: 1px solid #eaeaea;
     padding-top:5px;
     padding-bottom:0;
-    padding-left:5px;
-    padding-right:5px;
+    padding-left:5px !important;
+    padding-right:5px !important;
     overflow: hidden;
 }
 .base-holder input[type='text']{
@@ -13,25 +22,16 @@
     color: #666666;
     outline:none;
     margin-bottom: 5px;
+    padding:5px;
 }
-.tag-success{
-    background: #879e29;
-    color: #ffffff;
+
+.base-holder i.fa-times{
+    color: #e26532;
+    margin-left: 5px;
 }
-.tag-success:hover{
-    background: #93ac2d;
-    color: #ffffff;
-}
-.tag-success-outline{
-    color: #879e29;
-    border:1px solid rgba(135, 158, 41, 0.62)
-}
-.tag-success-outline:hover{
-    background: #f9f9f9;
-    color: #7c9126;
-    border:1px solid #7d9226;
-}
-.default-tag{
+
+/*default*/
+.tag-default{
     cursor: pointer;
     padding:5px 8px !important;
     font-size: 14px;
@@ -39,4 +39,225 @@
     margin-bottom: 5px;
     margin-left: 2px;
     display: inline-block;
+}
+
+/*xsmall*/
+.tag-xsmall{
+    cursor: pointer;
+    padding:0 4px !important;
+    font-size: 12px;
+    margin-right: 3px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    display: inline-block;
+}
+.tag-xsmall i.fa-times{
+    margin-left:2px !important;
+}
+
+/*small*/
+.tag-small{
+    cursor: pointer;
+    padding:2px 4px !important;
+    font-size: 13px;
+    margin-right: 3px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    display: inline-block;
+}
+.tag-small i.fa-times{
+    margin-left:2px !important;
+}
+
+/*small*/
+.tag-small{
+    cursor: pointer;
+    padding:2px 4px !important;
+    font-size: 13px;
+    margin-right: 3px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    display: inline-block;
+}
+.tag-small i.fa-times{
+    margin-left:2px !important;
+}
+
+/*medium*/
+.tag-medium{
+    cursor: pointer;
+    padding:3px 6px !important;
+    font-size: 13px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    margin-left: 2px;
+    display: inline-block;
+}
+.tag-medium i.fa-times{
+    margin-left:3px !important;
+}
+
+/*large*/
+.tag-large{
+    cursor: pointer;
+    padding:4px 7px !important;
+    font-size: 14px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+    display: inline-block;
+}
+.tag-large i.fa-times{
+    margin-left:3px !important;
+}
+
+/*xlarge*/
+.tag-xlarge{
+    cursor: pointer;
+    padding:8px 10px !important;
+    font-size: 15px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+    display: inline-block;
+}
+.tag-large i.fa-times{
+    margin-left:3px !important;
+}
+
+/*Default*/
+.tag-default{
+    background: #f9f9f9;
+    color: #666666;
+    border: 1px solid #e4e4e4;
+}
+.tag-default:hover{
+    background: #f1f1f1;
+    color: #666666;
+}
+.tag-default i.fa-times{
+    color: #e85855 !important;
+}
+.tag-default-outline{
+    color: #666666;
+    border:1px solid #e4e4e4;
+}
+.tag-default-outline:hover{
+    background: #f9f9f9;
+    color: #666666;
+    border:1px solid #e4e4e4;
+}
+
+/*Success*/
+.tag-success{
+    background: #5cb85c;
+    color: #ffffff;
+}
+.tag-success:hover{
+    background: #68cf68;
+    color: #ffffff;
+}
+.tag-success i.fa-times{
+    color: #ffffff !important;
+}
+.tag-success-outline{
+    color: #5cb85c;
+    border:1px solid rgba(135, 158, 41, 0.62)
+}
+.tag-success-outline:hover{
+    background: #f9f9f9;
+    color: #5cb85c;
+    border:1px solid #5cb85c;
+}
+
+/*Primary*/
+
+.tag-primary{
+    background: #337ab7;
+    color: #ffffff;
+}
+.tag-primary:hover{
+    background: #3783c5;
+    color: #ffffff;
+}
+.tag-primary i.fa-times{
+    color: #ffffff !important;
+}
+.tag-primary-outline{
+    color: #3783c5;
+    border:1px solid #2e6da4;
+}
+.tag-primary-outline:hover{
+    background: #f9f9f9;
+    color: #3783c5;
+    border:1px solid #3175b0;
+}
+
+/*Info*/
+
+.tag-info{
+    background: #5bc0de;
+    color: #ffffff;
+}
+.tag-info:hover{
+    background: #58b9d6;
+    color: #ffffff;
+}
+.tag-info i.fa-times{
+    color: #ffffff !important;
+}
+.tag-info-outline{
+    color: #5bc0de;
+    border:1px solid #55b3cf;
+}
+.tag-info-outline:hover{
+    background: #f9f9f9;
+    color: #53afca;
+    border:1px solid #50aac4;
+}
+
+/*Warning*/
+
+.tag-warning{
+    background: #f0ad4e;
+    color: #ffffff;
+}
+.tag-warning:hover{
+    background: #e3a349;
+    color: #ffffff;
+}
+.tag-warning i.fa-times{
+    color: #ffffff !important;
+}
+.tag-warning-outline{
+    color: #f0ad4e;
+    border:1px solid #e2a349;
+}
+.tag-warning-outline:hover{
+    background: #f9f9f9;
+    color: #f0ad4e;
+    border:1px solid #dea048;
+}
+
+/*Danger*/
+
+.tag-danger{
+    background: #d9534f;
+    color: #ffffff;
+}
+.tag-danger:hover{
+    background: #e85855;
+    color: #ffffff;
+}
+.tag-danger i.fa-times{
+    color: #ffffff !important;
+}
+.tag-danger-outline{
+    color: #d9534f;
+    border:1px solid #d9534f;
+}
+.tag-danger-outline:hover{
+    background: #f9f9f9;
+    color: #d9534f;
+    border:1px solid #d9534f;
 }
