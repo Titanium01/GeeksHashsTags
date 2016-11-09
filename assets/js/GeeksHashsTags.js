@@ -1,6 +1,6 @@
 <!--
 Created on 11/05/2016
-Version 1.1.0
+Version 1.1
 Developed By Titanium01
 Visit me on facebook
 fb.com/Geeks.Hashes/ or @geeks.hashes
