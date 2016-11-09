@@ -6,7 +6,7 @@ Samples:
 ![tags](https://cloud.githubusercontent.com/assets/23264635/20149638/2864fe1a-a680-11e6-9576-ea6a8dd8f9e4.png)
 
 # NOTES:
-Samples above only shows the deferment colors and sizes, it's not showing all the features of the plugin.
+Samples above only shows the different colors and sizes, it's not showing all the features of the plugin.
 
  ***don't remove elements with i9 comment in order to get the plugin works perfectly.**
  
@@ -24,9 +24,38 @@ my face book page.
     or
     @GeeksHashes 
 
+# GETTING STARTED
+
+###REQUIRED INCLUDES
+
+     <link href="assets/css/style.css" rel="stylesheet" />
+     <link rel="stylesheet" href="assets/vendors/font-awesome-4.7.0/css/font-awesome.min.css">
+
+###OPTIONAL INCLUDES
+
+    <link rel="stylesheet" href="assets/vendors/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+
+###Plugin Usage
+
+
+ <!--BASE CONTAINER 1 START-->
+    <div class="base-holder col-md-12"> <!--(i9)-->
+        <input type="text"
+               data-tags-color="tag-default"
+               data-tags-max="15"
+               data-tags-size="xlarge"
+               data-tags-handle="tagger"
+               data-tags-base="tags-only"
+               data-tags-side="right"
+               data-tags-remove="true"
+               data-tags-change="true"
+               placeholder="insert tags">
+    </div>
+    <!--BASE CONTAINER 1 ENDS-->
+
+
 here is a list of information of the options you can use in this plugin
 # INFORMATION LIST
-
 
 Colors Usage:
 
