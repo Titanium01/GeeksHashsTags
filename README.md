@@ -24,38 +24,33 @@ my face book page.
     or
     @GeeksHashes 
 
-# GETTING STARTED
+# GETTING STARTED:
 
-###REQUIRED INCLUDES
+###REQUIRED INCLUDES:
 
      <link href="assets/css/style.css" rel="stylesheet" />
      <link rel="stylesheet" href="assets/vendors/font-awesome-4.7.0/css/font-awesome.min.css">
 
-###OPTIONAL INCLUDES
+###OPTIONAL INCLUDES:
 
     <link rel="stylesheet" href="assets/vendors/bootstrap-3.3.7-dist/css/bootstrap.min.css">
 
-###Plugin Usage
+###Plugin Usage:
 
-
- <!--BASE CONTAINER 1 START-->
-    <div class="base-holder col-md-12"> <!--(i9)-->
-        <input type="text"
+          <div class="base-holder col-md-12"> <!--(i9)-->
+               <input type="text"
                data-tags-color="tag-default"
                data-tags-max="15"
-               data-tags-size="xlarge"
+               data-tags-size="default"
                data-tags-handle="tagger"
                data-tags-base="tags-only"
                data-tags-side="right"
                data-tags-remove="true"
                data-tags-change="true"
                placeholder="insert tags">
-    </div>
-    <!--BASE CONTAINER 1 ENDS-->
+          </div>
 
-
-here is a list of information of the options you can use in this plugin
-# INFORMATION LIST
+# OPTIONS LIST
 
 Colors Usage:
 
