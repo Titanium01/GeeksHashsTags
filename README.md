@@ -1,11 +1,13 @@
 # GeeksHashsTags
-GeeksHashsTags is a tool that helps developers to convert text field input to tags base input, converts everything you type to a tag
+GeeksHashsTags is a plugin that helps developers to convert text field input to tags base input, converts everything you type to a tag
 
 Samples: 
 
 ![tags](https://cloud.githubusercontent.com/assets/23264635/20149638/2864fe1a-a680-11e6-9576-ea6a8dd8f9e4.png)
 
 # NOTES:
+Samples above only shows the deferment colors and sizes, it's not showing all the features of the plugin.
+
  ***don't remove elements with i9 comment in order to get the plugin works perfectly.**
  
 **GeeksHashsTags** comes with the known bootstrap main colors however you don't need to include bootstrap lib in order
